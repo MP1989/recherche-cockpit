@@ -1,0 +1,29 @@
+# Sicherheits-relevante Dateien — NIEMALS committen
+PASSWORT_NICHT_COMMITTEN.txt
+build_encrypted_dashboard.py
+einzelposten_*.json
+*.passwort
+*.password
+secrets.*
+
+# Python-Build-Artefakte (falls Skripte lokal genutzt werden)
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+env/
+
+# Editor- und Betriebssystem-Artefakte
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+.idea/
+.vscode/
+
+# Backup-Dateien
+*.bak
+*.tmp
+*.old
